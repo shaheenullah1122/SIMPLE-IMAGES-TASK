@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    color: gray;
+}
+
+.section {
+    /* border: 2px solid black; */
+    background: linear-gradient(140deg, wheat 95%, #fff 20%);
+}
+
+.section-1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.section-3 .main-div,
+.section-1 .main-div,
+.section-2 .main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    padding-top: 0rem;
+    width: 100%;
+    /* border: 3px solid blue; */
+}
+
+.right-side,
+.left-side {
+    width: 40%;
+    height: 30rem;
+    /* border: 2px solid red; */
+}
+
+.right-side img {
+    width: 100%;
+    height: 100%;
+}
+
+.SVG {
+    margin-bottom: -13rem;
+    background-color: wheat;
+}
+
+/* ====Left-side ======= */
+.section-1 .left-side {
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.section-1 .left-side h2 {
+    font-family: calibri light;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 800;
+}
+
+.section-1 .left-side p {
+    font-family: calibri light;
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+    padding-bottom: 4rem;
+}
+
+.section-1 .left-side button,
+footer button {
+    width: 7.5rem;
+    height: 3rem;
+    /* position: relative; */
+    border: none;
+    border-radius: 0.4rem;
+}
+.section-1 .left-side .btn-2,
+footer .btn-2 {
+    margin-left: 1.5rem;
+    background-color: #fff;
+    transition: 0.3s linear;
+    color: gray;
+}
+
+.section-1 .left-side .btn-2:hover,
+footer .btn-2:hover {
+    background-color: #e74f26;
+    color: #fff;
+}
+.section-1 .left-side .btn-1,
+footer .btn-1 {
+    background-color: #e74f26;
+
+    transition: 0.3s linear;
+}
+
+.section-1 .left-side .btn-1:hover {
+    background-color: #fff;
+    color: gray;
+}
+
+/* ======= SEction-2 ============ */
+
+.section-2 {
+    padding: 5rem 0rem;
+
+    position: relative;
+}
+.section-2 img {
+    width: 75%;
+    height: auto;
+}
+
+.section-2 .right-side,
+.section-2 .left-side {
+    width: 45%;
+    height: 35rem;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.section-2 .right-side p {
+    padding-bottom: 3rem;
+    color: rgb(148, 148, 148);
+    font-size: 0.9rem;
+}
+
+.section-2 .left-side p {
+    color: rgb(148, 148, 148);
+    padding-top: 0rem;
+}
+
+.section-2 p,
+.last-section .main-last-div .l-r-side {
+    line-height: 1.4rem;
+}
+.section-2 h1,
+.last-section .main-last-div .l-r-side h1 {
+    padding-bottom: 1.5rem;
+    color: gray;
+}
+
+/* ============= Section-3============ */
+
+.last-section {
+    background: linear-gradient(65deg, rgb(243, 231, 208) 40%, #fff 50%);
+    padding: 3rem 0rem;
+}
+
+.last-section .main-last-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 6rem;
+}
+
+.last-section .main-last-div .l-left-side,
+.last-section .main-last-div .l-r-side {
+    width: 45%;
+    /* border: 2px solid red; */
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.last-section .main-last-div .l-left-side img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding-top: 0.8rem;
+}
+
+footer h3 {
+    padding-bottom: 0.8rem;
+}
+
+footer button {
+    margin-bottom: 0.5rem;
+}
+
+footer .btn-2 {
+    border: 1px solid gray;
+}
+
+footer .btn-2:hover {
+    border: none;
+}
